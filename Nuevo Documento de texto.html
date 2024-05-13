@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Página Personal</h1>
+        <p>Bienvenido/a a mi espacio en la web</p>
+    </header>
+    <nav>
+        <a href="#sobre-mi">Sobre Mí</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="container">
+        <section id="sobre-mi" class="section">
+            <h2>Sobre Mí</h2>
+            <p>Hola, soy [Tu Nombre]. Soy [Tu Profesión o Descripción Breve]. Me apasiona [Tus Intereses o Pasatiempos].</p>
+        </section>
+        <section id="experiencia" class="section">
+            <h2>Experiencia</h2>
+            <p>[Breve descripción de tu experiencia profesional]</p>
+            <ul>
+                <li>Trabajo 1 - Descripción</li>
+                <li>Trabajo 2 - Descripción</li>
+                <li>Trabajo 3 - Descripción</li>
+            </ul>
+        </section>
+        <section id="proyectos" class="section">
+            <h2>Proyectos</h2>
+            <p>Aquí hay algunos de mis proyectos destacados:</p>
+            <ul>
+                <li>Proyecto 1 - Descripción</li>
+                <li>Proyecto 2 - Descripción</li>
+                <li>Proyecto 3 - Descripción</li>
+            </ul>
+        </section>
+        <section id="contacto" class="section">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través de los siguientes medios:</p>
+            <ul>
+                <li>Email: [tu.email@ejemplo.com]</li>
+                <li>Teléfono: [tu número de teléfono]</li>
+                <li>LinkedIn: [tu perfil de LinkedIn]</li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Mi Página Personal. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
